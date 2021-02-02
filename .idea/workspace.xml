@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f49a6b7-d724-4644-badf-ac872324b549" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/app/ApproveDeclineLogs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/app/OnDutySample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/app/ReportSample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/app/SigninWithGoogle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/app/SignupWithCaretaker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/app/WorklogSample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pt_icon_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pt_icon_96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mobiapp_logo_32dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mobiapp_logo_96dp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3f49a6b7-d724-4644-badf-ac872324b549" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612119604155</updated>
       <workItem from="1612119605313" duration="11395000" />
-      <workItem from="1612249174942" duration="8250000" />
+      <workItem from="1612249174942" duration="8530000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced bootstrap">
       <created>1612119641834</created>
@@ -103,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612119641834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PT-15: Deployment">
+      <created>1612267833342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612267833343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +116,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Introduced bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduced bootstrap" />
+    <MESSAGE value="PT-15: Deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="PT-15: Deployment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612187161784">
