@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f49a6b7-d724-4644-badf-ac872324b549" name="Default Changelist" comment="" />
+    <list default="true" id="3f49a6b7-d724-4644-badf-ac872324b549" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/impressum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,10 +52,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img/app" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
@@ -80,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612119604155</updated>
       <workItem from="1612119605313" duration="11395000" />
-      <workItem from="1612249174942" duration="8530000" />
+      <workItem from="1612249174942" duration="9512000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced bootstrap">
       <created>1612119641834</created>
@@ -96,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612267833343</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PT-15: Corrected logo">
+      <created>1612268017274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612268017274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Introduced bootstrap" />
     <MESSAGE value="PT-15: Deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="PT-15: Deployment" />
+    <MESSAGE value="PT-15: Corrected logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="PT-15: Corrected logo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612187161784">
@@ -129,9 +142,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="634" y="325" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1097/-1920.63.1920.1057@0.23.1792.1097" timestamp="1612186468847" />
-    <state x="496" y="298" key="Vcs.Push.Dialog.v2" timestamp="1612119644277">
+    <state x="496" y="298" key="Vcs.Push.Dialog.v2" timestamp="1612268019012">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
+    <state x="496" y="298" key="Vcs.Push.Dialog.v2/0.23.1792.1097/-1920.63.1920.1057@0.23.1792.1097" timestamp="1612268019012" />
     <state x="496" y="298" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1612119644277" />
   </component>
 </project>
