@@ -25,7 +25,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
     <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="device-mockups/device-mockups.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="devices/devices.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
@@ -82,7 +83,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     <div class="container h-100">
         <div class="row h-100">
             <div class="col-lg-7 my-auto">
-                <div class="header-content mx-auto  animated wow zoomIn" data-wow-duration="0.3s" data-wow-delay=".1s">
+                <div class="header-content mx-auto animated wow zoomIn" data-wow-duration="0.3s" data-wow-delay=".1s">
                     <h1 class="mx-auto">Re-Think tracking your IT support efforts. </h1>
                     <h1>Accomplish fairness &amp; enable your team
                         to evolve - sustainable, effective &amp; intrinsic</h1>
@@ -93,17 +94,15 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 </div>
             </div>
             <div class="col-lg-5 my-auto">
-                <div class="device-container">
-                    <div class="device-mockup iphone6_plus portrait white animated wow bounceInUp"
-                         data-wow-duration="1s" data-wow-delay=".5s">
-                        <div class="device">
-                            <div class="screen">
-                                <img src="img/app/ReportSample.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="button">
-                            </div>
-                        </div>
+                <div class="device device-google-pixel">
+                    <div class="device-frame">
+                        <img class="device-content img-fluid" src="img/app/ReportSample.png">
                     </div>
+                    <div class="device-stripe"></div>
+                    <div class="device-header"></div>
+                    <div class="device-sensors"></div>
+                    <div class="device-btns"></div>
+                    <div class="device-power"></div>
                 </div>
             </div>
         </div>
@@ -126,9 +125,16 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 <div class="app-about-cont">
                     <i class="fa fa-rocket"></i>
                     <h3>Supply, acknowledge or decline worklogs via Smartphone. Anywhere. Anytime.</h3>
-                    <p>A lot of modern &amp; self-organized teams face a common challenge: Who provides support to highly sophisticated services within complex domains? Who is "On-Call" after office hours being able to provide deep domain knowledge in case of an emergency?</p>
-                    <p>Point Taken allows to cope with this challenge in a sustainable way: Members of the domain team (developers, Product Owners, etc.) can participate on a voluntary basis to provide this kind of support - during releases, hypercare or as a general service towards the stakeholders.</p>
-                    <p>By supplying worklogs this kind of "extra time on the job" is made transparent and can be rewarded in a fair way by the use of a flexible point system. Merits coming from the earned points are routed to existing payout channels like HR for vacation or payroll for additional payments.</p>
+                    <p>A lot of modern &amp; self-organized teams face a common challenge: Who provides support to
+                        highly sophisticated services within complex domains? Who is "On-Call" after office hours being
+                        able to provide deep domain knowledge in case of an emergency?</p>
+                    <p>Point Taken allows to cope with this challenge in a sustainable way: Members of the domain team
+                        (developers, Product Owners, etc.) can participate on a voluntary basis to provide this kind of
+                        support - during releases, hypercare or as a general service towards the stakeholders.</p>
+                    <p>By supplying worklogs this kind of "extra time on the job" is made transparent and can be
+                        rewarded in a fair way by the use of a flexible point system. Merits coming from the earned
+                        points are routed to existing payout channels like HR for vacation or payroll for additional
+                        payments.</p>
                 </div>
             </div>
         </div>
@@ -137,10 +143,17 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 <div class="app-about-cont right">
                     <i class="fa fa-hat-wizard"></i>
                     <h3>Key benefits vs. "Eat your own dogfood"</h3>
-                    <p>We believe that the accountability for the quality of service to a product has to be provided where it belongs: In the domain, that implements & maintains the service. </p>
-                    <p>Point Taken helps to incentivise developers and product owners to provide their domain knowledge or provide On-Call duty outside the usual working hours.</p>
-                    <p>The time to response is being shortened, extra work gets extra benefits - it is being noticed &amp; rewarded. The observable effect is usually: Dev-Teams are self-motivated to increase the quality of their services, because being alarmed during leisure time is something most people want to avoid.</p>
-                    <p>Most importantly for team leads or management: Once processes are clarified with HR merits can be channeled through the usual methods of compensation like additional payments via payroll or issuing extra vacation also obeying local laws and tax regulations.</p>
+                    <p>We believe that the accountability for the quality of service to a product has to be provided
+                        where it belongs: In the domain, that implements & maintains the service. </p>
+                    <p>Point Taken helps to incentivise developers and product owners to provide their domain knowledge
+                        or provide On-Call duty outside the usual working hours.</p>
+                    <p>The time to response is being shortened, extra work gets extra benefits - it is being noticed
+                        &amp; rewarded. The observable effect is usually: Dev-Teams are self-motivated to increase the
+                        quality of their services, because being alarmed during leisure time is something most people
+                        want to avoid.</p>
+                    <p>Most importantly for team leads or management: Once processes are clarified with HR merits can be
+                        channeled through the usual methods of compensation like additional payments via payroll or
+                        issuing extra vacation also obeying local laws and tax regulations.</p>
                 </div>
             </div>
             <div class="col-md-4 wow flipInX" data-wow-delay="0.6s">
@@ -169,49 +182,61 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     <div class="service-desc-cont">
                         <i class="fa fa-android"></i>
                         <h5>Easy supply of Work- and OnDuty-Logs</h5>
-                        <p>Proteges use the Point Taken App to supply testiments of their work. Points are being calculated transparently and automatically based on a provided point schema per single log entry.</p>
+                        <p>Proteges use the Point Taken App to supply testiments of their work. Points are being
+                            calculated transparently and automatically based on a provided point schema per single log
+                            entry.</p>
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12">
                     <div class="service-desc-cont">
                         <i class="fa fa-tasks"></i>
                         <h5>Acknowledge or Decline Logs</h5>
-                        <p>While it is the job of Proteges to provide after-hours work and track the invested times it is the responsibility of a Caretaker to evaluate, approve or decline the provided logs.</p>
+                        <p>While it is the job of Proteges to provide after-hours work and track the invested times it
+                            is the responsibility of a Caretaker to evaluate, approve or decline the provided logs.</p>
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12">
                     <div class="service-desc-cont mb-5">
                         <i class="fa fa-bar-chart-o"></i>
                         <h5>Create reports on demand</h5>
-                        <p>Caretakers can create reports that summarize the work of the proteges for a month. This report has to be forwarded to HR and payroll to issue compensations in time.</p>
+                        <p>Caretakers can create reports that summarize the work of the proteges for a month. This
+                            report has to be forwarded to HR and payroll to issue compensations in time.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 wow bounceInUp" data-wow-delay="0.6s">
-                <div class="servie-img text-center">
-                    <img src="img/app/SignupWithCaretaker.png" alt="" class="img-fluid">
+            <div class="col-md-4 device-container">
+                <div class="device device-google-pixel device-black">
+                    <div class="device-frame">
+                        <img class="device-content img-fluid" src="img/app/SignupWithCaretaker.png">
+                    </div>
                 </div>
+
             </div>
             <div class="col-md-4 wow fadeInRight" data-wow-delay="0.9s">
                 <div class="col-md-12 col-sm-12">
                     <div class="service-desc-cont">
                         <i class="fa fa-bell"></i>
                         <h5>Mail &amp; App Notifications</h5>
-                        <p>As a caretaker you can get a notifcation via Mail and on your device if there are pending logs or proteges. This allows you to react quicker and ask if there are any inconsistencies or  need for clarification.</p>
+                        <p>As a caretaker you can get a notifcation via Mail and on your device if there are pending
+                            logs or proteges. This allows you to react quicker and ask if there are any inconsistencies
+                            or need for clarification.</p>
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12">
                     <div class="service-desc-cont">
                         <i class="fa fa-check-double"></i>
                         <h5>Source data &amp; transparency</h5>
-                        <p>Along with an acknowledged report you will get the raw data in form of a CSV that was used to create the calculations in the report via Mail. Proteges get a user centric report on the earned points and merits upon an report, that was acknowledged by the caretaker.</p>
+                        <p>Along with an acknowledged report you will get the raw data in form of a CSV that was used to
+                            create the calculations in the report via Mail. Proteges get a user centric report on the
+                            earned points and merits upon an report, that was acknowledged by the caretaker.</p>
                     </div>
                 </div>
                 <div class="col-md-12 col-sm-12">
                     <div class="service-desc-cont">
                         <i class="fa fa-handshake"></i>
                         <h5>Coupling made easy</h5>
-                        <p>Proteges use a caretaker specific invite code to view and accept a caretaker and the point schema. After the caretaker Opt-In to a new protege the submission of logs can start.</p>
+                        <p>Proteges use a caretaker specific invite code to view and accept a caretaker and the point
+                            schema. After the caretaker Opt-In to a new protege the submission of logs can start.</p>
                     </div>
                 </div>
             </div>
@@ -221,15 +246,17 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
 <!-- FAQ
     ================-->
-<!-- <section id="faq" class="faq py-5">
+<section id="faq" class="faq py-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="faq-img">
-                    <img src="img/doubel-mobile.png" alt="" class="img-fluid">
+            <div class="col-md-4">
+                <div class="device device-google-pixel-2-xl">
+                    <div class="device-frame">
+                        <img src="img/doubel-mobile.png" alt="" class="img-fluid">
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 wow fadeInUp mt-5 mx-auto" data-wow-delay="0.6s">
+            <div class="col-md-6 col-sm-12 wow mt-5 mx-auto" data-wow-delay="0.6s">
                 <div class="faq-cont">
                     <div id="accordion">
                         <div class="card">
@@ -246,14 +273,16 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
                                  data-parent="#accordion">
                                 <div class="card-body">
-                                    Because there is standard vibration and ringing functions are utilised to alert
-                                    users to incoming calls messages and social networking notifications. Along with the
-                                    built in ringtones, there is also have the luxury of MP3 ringtone support, which
-                                    means users can assign their favourite music tracks as ringtones. The task of taking
-                                    them is made all the more simple thanks to Autofocus and face detection included as
-                                    standard. Geo-tagging is another feature of the camera which functions thanks to GPS
-                                    and allows users to keep tabs of where they took their photos. Users also have the
-                                    luxury of being able to shoot video footage with the camera.
+                                    <p>As a protege Point Taken offers you to easily keep track of your after hours work
+                                        and easily inform about stuff you worked on - completely decoupled from
+                                        On-Premise systems, etc.. </p>
+                                    <p>As caretaker you have the oportunity to review the supplied logs at your own
+                                        pace. Points are calculated automatically and you can trigger a report that you
+                                        can sign and handover to HR.</p>
+                                    <p>As an agile, domain oriented company you can easily include the people who work
+                                        on the code and the product everyday to the intense process of support - maybe
+                                        even without having a dedicated 1st Level at all and living Site Reliability
+                                        Engineering.</p>
                                 </div>
                             </div>
                         </div>
@@ -264,73 +293,18 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                                             data-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseTwo">
                                         <i class="fa fa-arrow-right"></i>
-                                        What factors does Point Taken use?
+                                        I have a great idea for a new feature - What can I do?
                                     </button>
                                 </h5>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                  data-parent="#accordion">
                                 <div class="card-body">
-                                    Intense Research provides a range of marketing and business research solutions
-                                    designed for our client’s specific needs based on our expert resources. The business
-                                    scopes of Intense Research cover more than 30 industries includsing energy, new
-                                    materials, transportation, daily consumer goods, chemicals, etc. We provide our
-                                    clients with one-stop solution for all the research requirements.Techno Exponent is
-                                    a pioneering Android application development company that offers custom Android app
-                                    development services. Thus, we have been developing Android Smartphone and tablet
-                                    applications dating back to the start of the decade. Hire Android developers at our
-                                    disposition.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                            data-target="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                        <i class="fa fa-arrow-right"></i>
-                                        Point Taken Network Security?
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                 data-parent="#accordion">
-                                <div class="card-body">
-                                    Smart Phones are no longer a simple hand through which we could call a person or
-                                    could send out message massage therapies to somebody; instead it is an accumulation
-                                    of hand collection, electronic daily record, bridge to net, amusement source and so
-                                    on. For lots of purposes we have set up many applications in our cell phone that we
-                                    could not also remember them up until we are in real demand of them. Several of
-                                    those applications are so helpful and also private that we need real safety and
-                                    security to shield them from unwanted entry and un-authorized un-installation. For
-                                    this kind of inconvenience, first thing comes in my thoughts is AppLock.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingFour">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse"
-                                            data-target="#collapseFourth" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                        <i class="fa fa-arrow-right"></i>
-                                        How Point Taken works?
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseFourth" class="collapse" aria-labelledby="headingThree"
-                                 data-parent="#accordion">
-                                <div class="card-body">
-                                    The various other functions of this application are; fast lock switcher on standing
-                                    bar, re-lock, fast leave, never ever reveals the app lock symbol from the launcher,
-                                    AppLock itself can not be uninstalled; activity fantastic could not get rid of
-                                    AppLock etc. The costs version consists some even more attributes e.g. tailored
-                                    background, time lock, place lock, random keyboard etc. The future benefits of this
-                                    application will certainly be cloud backup, lock button (wifi, mobile data, 3G),
-                                    fake lock, visitor log and so on.In one word we could state that this application is
-                                    a dream application for a user who cares about the security as well as security of
-                                    his/ her wise tool.
+                                    That is just great and actually the overall idea of Point Taken is to build a
+                                    superior product together with the users who use it. This of course only works if
+                                    you tell us your needs - we love to get in touch with you. Please use the provided
+                                    Twitter- or Youtube-Channels presented in the end of this page or use the feedback
+                                    form within the App!
                                 </div>
                             </div>
                         </div>
@@ -339,7 +313,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <!-- GALLERY
     ================-->
@@ -423,7 +397,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                 <div class="heading">
                     <h1>Connect On Social</h1>
                     <div class="bord-bot"></div>
-                    <p class="wow fadeInUp" data-wow-delay="0.4s">Connect with Point Taken App on social networking sites</p>
+                    <p class="wow fadeInUp" data-wow-delay="0.4s">Connect with Point Taken App on social networking
+                        sites</p>
                 </div>
             </div>
         </div>
@@ -431,7 +406,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
             <div class="col-md-6 col-sm-6 text-center">
                 <div class="contact-cont wow fadeInUp" data-wow-delay="0.6s">
                     <a href="https://twitter.com/pointtakenapp" target="_blank">
-                        <img src="img/icon/icon-2.png" alt="" class="img-fluid" >
+                        <img src="img/icon/icon-2.png" alt="" class="img-fluid">
                         <h5>Twitter</h5>
                     </a>
                 </div>
