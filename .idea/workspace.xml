@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f49a6b7-d724-4644-badf-ac872324b549" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3f49a6b7-d724-4644-badf-ac872324b549" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +68,7 @@
       <workItem from="1612119605313" duration="11395000" />
       <workItem from="1612249174942" duration="16795000" />
       <workItem from="1612520917915" duration="718000" />
-      <workItem from="1613906033950" duration="289000" />
+      <workItem from="1613906033950" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="Introduced bootstrap">
       <created>1612119641834</created>
@@ -115,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612368624789</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="NO-JIRA: Added new FAQ Entry">
+      <created>1613976646397</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613976646397</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +144,8 @@
     <MESSAGE value="PT-15: Added impressum" />
     <MESSAGE value="PT-15: Corrected mocked devices" />
     <MESSAGE value="PT-15: Corrected og:url" />
-    <option name="LAST_COMMIT_MESSAGE" value="PT-15: Corrected og:url" />
+    <MESSAGE value="NO-JIRA: Added new FAQ Entry" />
+    <option name="LAST_COMMIT_MESSAGE" value="NO-JIRA: Added new FAQ Entry" />
   </component>
   <component name="WindowStateProjectService">
     <state x="360" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612187161784">
